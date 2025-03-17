@@ -17,4 +17,4 @@ Expected behaviour: scapy's `srp1()` should return the `ACK` packet for the last
 - Set up your own TCP server.
 - Replace dst_port, dst_ip, src_ip, src_mac, dst_mac, iface in [issue.py](issue.py)
 - Capture on the interface using wireshark/tcpdump or any other tools of your choice.
-- run issue.py
+- run [issue.py](issue.py)
