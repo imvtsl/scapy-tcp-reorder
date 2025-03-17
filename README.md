@@ -1,5 +1,7 @@
 # scapy-tcp-reorder
 
+This repository contains source code and evidence for issue [#4696](https://github.com/secdev/scapy/issues/4696).
+
 ## Issue Description
 When TCP segments are sent out of order, scapy's `srp1()` returns `None` for the last segment sent.
 
